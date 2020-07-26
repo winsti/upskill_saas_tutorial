@@ -17,9 +17,12 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+// typography styles
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
+
+// background gradient
 html 
 {height:100%;}
 .home-callout, .navbar {
@@ -30,6 +33,7 @@ html
 .navbar {
     border:none;
 }
+// Home page styles
 .home-callout{
    color:white;
     margin-top: -20px;
@@ -37,17 +41,15 @@ html
     padding-bottom: 50px;
 }
 
-.navbar-default .navbar-brand{
+// navbar styles
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a
+{
     color:white;
+ &:hover {
+     color:white;
+     opacity: 0.75;
+ }
+    
 }
-.navbar-default .navbar-nav > li > a{
-    color:white;
-}
-.navbar-default .navbar-brand:hover {
-    color:white;
-    opacity: 0.75;
-}
-.navbar-default .navbar-nav > li > a:hover{
-    color:white;
-    opacity: 0.75;
-}
+
