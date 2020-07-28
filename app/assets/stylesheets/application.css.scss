@@ -63,6 +63,21 @@ html
     
 }
 
+.navbar-default .navbar-toggle .icon-bar{
+    background: white;
+}
+
+.navbar-default .navbar-toggle{
+    border: 2px solid white;
+    &:hover, &:focus{
+        background-color: #136a8a;
+    }
+    
+}
+
+
+
+
 .navbar-brand {
   font-family: 'Open Sans', sans-serif;
 }
